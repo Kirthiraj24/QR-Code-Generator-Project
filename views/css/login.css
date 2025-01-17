@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.loginlogo{
+    margin-top:15px;
+    height: 80px;
+}
+.formcontainer{
+    display: grid;
+    justify-content: center;
+    margin: 15px;
+}
+.logocontainer{
+    text-align: center;
+    margin-bottom: 15px;
+}
+.brandname{
+    text-align: center;
+    font-family: "Silkscreen", serif;
+    font-weight: 600;
+    color: #333333; 
+    font-size: 60;
+}
+label{
+    font-size: 15px;
+    font-weight: 500;
+    font-family: "Silkscreen", serif;
+
+}
+p > a{
+    text-decoration: none;
+}
+p{
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #333; 
+    color: #fff; 
+    padding: 20px;
+    font-family: Arial, sans-serif; 
+  }
+  
+  .footercontent > ul{
+    display: flex;
+    justify-content: space-evenly;
+    
+  }
+  .footercontent > ul >li{
+    list-style: none;
+    margin: 10px;
+   padding: 2px;
+   opacity: 0.8;
+  }
+.formcontainer > a{
+    text-decoration: none;
+    
+}
+  .footercontent > h4{
+    text-align: center;
+    padding: 10px;
+    opacity: 0.6;
+  }
+  .footercontent > ul >li > a{
+    list-style: none;
+    text-decoration: none;
+  }
+  .footercontent > ul > li  :hover{
+    
+    color: white;
+    transition: 0.5s;
+    
+  }
+  .footercontent > p{
+    text-align: center;
+    opacity: 0.5;
+  }

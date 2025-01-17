@@ -1,0 +1,226 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: #f8f9fa; 
+    color: #333333; 
+    font-family: "Silkscreen", serif;
+}
+
+.navbar {
+    background-color: #ffffff; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.navbar-brand {
+    font-family: "Silkscreen", serif;
+    font-weight: 500;
+    color: #0066cc; 
+}
+
+.navbar-brand:hover {
+    color: #005bb5; 
+}
+
+
+.menu {
+    list-style: none;
+    display: flex;
+    margin-left: auto; 
+    padding-right: 50px;
+}
+
+.menu > li > a {
+    text-decoration: none;
+    color: #333333; 
+    font-weight: 500;
+    margin-right: 30px; 
+    transition: color 0.3s ease;
+    font-size: 17px;
+}
+
+.menu > li > a:hover {
+    color: #0b81f7; 
+    font-size: 17px;
+    transition: 0.3s;
+    margin-right: 33px;
+}
+
+.firstcontainer > h5 {
+    font-family: "Silkscreen", serif;
+    font-weight: 500;
+    color: #333333; 
+    text-align: center;
+    margin:10px;
+}
+.logoname {
+    font-family: "Silkscreen", serif;
+    font-weight: 500;
+    color: #333333; 
+}
+.menu > li > a:hover {
+    color: #005bb5; 
+}
+
+@keyframes zoomIn {
+    0% 
+    {
+        transform: scale(0.96);
+        opacity: 0.8;
+    }
+    50% 
+    {
+        transform: scale(1.0);
+        opacity: 0.9;
+    }
+    100%{
+        transform: scale(0.96);
+        opacity: 0.8;
+    }
+}
+
+.imagecol > img {
+    border-radius: 2%;
+    height: 560px;
+    width: 100%;
+    opacity: 0.9;
+    animation: zoomIn 4s ease-in-out infinite; 
+    transition: transform 0.7s ease-in-out;
+}
+
+.plansgridcontainer > h3 {
+
+    font-family: "Silkscreen", serif;
+    font-weight: 500;
+    text-shadow: 2px;
+
+}
+.card1{
+    margin-left: 120px;
+    margin-bottom: 30px;
+    
+}
+.card1:hover{
+
+   animation: zoomIn 3s ease-in-out infinite;
+   transition: transform 0.3s ease-in-out;
+   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.8);
+ 
+}
+.card1 > .cardcontent > h5 > span{
+    font-family: "Silkscreen", serif;
+    font-weight: 500;
+    color: #333333;
+}
+  .plansgridcontainer {
+    max-width: 1200px; 
+    margin: 0 auto;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .plansgridcontainer > h3 {
+    font-family: "Silkscreen", serif;
+    margin-bottom: 30px;
+  }
+  
+  .card1 {
+    margin: 20px auto;
+    width: 300px; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+ 
+  
+  .cardcontent h5 {
+    font-family: "Silkscreen", serif;
+    font-weight: 500;
+  }
+  
+ 
+  .plansgridcontainer .row {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap; 
+  }
+   
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 40px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .footercontainer {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    gap: 20px; 
+  }
+  
+  
+  .footercontent {
+    text-align: center;
+  }
+  
+  .footercontent > h4 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    opacity: 0.9;
+  }
+  
+  .footercontent > ul {
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 15px;
+  }
+  
+  .footercontent > ul > li {
+    margin: 5px;
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+  }
+  
+  .footercontent > ul > li:hover {
+    opacity: 1;
+  }
+  
+  .footercontent > ul > li > a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .footercontent > p {
+    text-align: center;
+    margin-top: 10px;
+    opacity: 0.6;
+    font-size: 14px;
+  }
+  
+  @media (max-width: 768px) {
+    .footercontainer {
+      gap: 15px;
+    }
+  
+    .footercontent > ul {
+      gap: 10px; 
+    }
+  
+    .footercontent > p {
+      margin-top: 15px;
+    }
+  }
+  
