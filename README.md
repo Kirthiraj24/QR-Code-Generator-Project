@@ -48,8 +48,8 @@ Installation
 
 1. Clone the repository:
 
-git clone https://github.com/your-username/qr-generator-website.git
-cd qr-generator-website
+git clone https://github.com/Kirthiraj24/QR-Code-Generator-Project
+
 ---------------------------------------------------------------------
 2. Install dependencies:
    
